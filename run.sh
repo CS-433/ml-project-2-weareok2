@@ -1,0 +1,1 @@
+ python transfPrediction.py predictions.csv transf-H400_numL3_numH8_lr5_nMini2000.pt-ep5
