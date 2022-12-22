@@ -1,4 +1,5 @@
 ## Folder structure
+
 ```
 –twitter-datasets/
  |train_pos_full.txt
@@ -11,19 +12,24 @@
  |transf.py
  |_transf.py
  |transfPred.py
+ |run.py
 ```
 
 ## Preprocessing
+
 To produce first the dictionary of tokens.
-```bash
+
+```
 build_vocab.sh
 cut_vocab.sh
 python3 pickle_vocab.py
 ```
 
 ## Training
+
 Require pytorch library and a GPU.
-```bash
+
+```
 python transf.py embedding_dimension \
     number_of_layers \
     number_of_heads \
@@ -33,7 +39,21 @@ python transf.py embedding_dimension \
 ```
 
 ## Prediction
+
 Require pytorch library.
-```bash
+
+```
 python transfPrediction.py output_file input_trained_model
+```
+
+## Reproducing our predictions
+
+Download our trained model here :
+
+<https://cloud.eleves.ens.fr/index.php/s/SAALMW56GfqyZmL>
+
+Then run
+
+```
+run.sh
 ```
