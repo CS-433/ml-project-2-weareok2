@@ -48,7 +48,8 @@ python transfPrediction.py output_file input_trained_model
 
 ## Reproducing our predictions
 
-Download our trained model here :
+Due to the space limitation of github, we are not able to upload our trained model,
+so we put a link to download our trained model:
 
 <https://cloud.eleves.ens.fr/index.php/s/SAALMW56GfqyZmL>
 
